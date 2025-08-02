@@ -1,23 +1,18 @@
-# 📊 Libraries in Numbers
+# 📊 IMLS Public Libraries — FY 2022 Insights
 
-**IMLS-based insights into library usage, funding, and access.**
+**Data-driven insights from the IMLS FY 2022 Public Libraries Survey.**
 
-This public data analytics project explores how libraries serve communities through usage trends, program offerings, digital access, and more.
+This public data analytics project explores how libraries serve communities through usage trends, digital access, and public program engagement.
 
-Using real-world data from the Institute of Museum and Library Services (IMLS), this project visualizes key performance indicators and provides actionable insights into the evolving role of libraries.
+Using data from the Institute of Museum and Library Services (IMLS), we visualize key performance indicators and highlight equity gaps across U.S. states.
 
 ---
 
 ## 📓 Notebooks
 
-This project explores how public libraries serve communities using data from the Institute of Museum and Library Services (IMLS).
+Each notebook loads FY 2022 IMLS public library data and generates per-capita comparisons across the U.S.
 
-Each notebook:
-- Loads and prepares public library survey data (FY 2022)
-- Visualizes usage, access, and funding trends across U.S. states
-- Highlights key insights on equity, digital access, and community reach
-
-📘 See the [Notebook Index](#-notebook-index) below for details on each analysis.
+📘 See the Notebook Index below for topic areas and insights.
 
 ---
 
@@ -42,6 +37,15 @@ Each notebook:
   - Choropleth: Electronic circulation per 1,000 people
 - Caps extreme outliers to improve readability
 - Highlights gaps in digital equity
+
+---
+
+### `public_library_programs_fy2022.ipynb`
+- Loads the **raw FY 2022 AE dataset**
+- 📅 Visualizes public program output and engagement:
+  - Choropleth: Attendance per 1,000 people by state
+  - Scatter plot: Programs per capita vs. attendance per capita
+- Highlights relationships between service output and community engagement
 
 ---
 
