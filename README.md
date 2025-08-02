@@ -1,6 +1,4 @@
-# 📊 Libraries in Numbers
-
-> IMLS-based insights into library usage, funding, and access.
+# 📊 Libraries in Numbers: Public Library Usage and Funding (FY 2022)
 
 **Libraries in Numbers** is a public data analytics project that explores how libraries serve communities through usage trends, program offerings, digital access, and funding equity.
 
