@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Hidden system files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Mac OS / Linux backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Data files (optional, ignore large raw exports if needed)
+# data/raw/
+# data/cleaned/
+
+# Colab temporary files
+*.ipynb (Untitled*).ipynb
