@@ -1,101 +1,41 @@
-# 📊 Libraries in Numbers: Unlocking Community Impact through Data
+# 📊 Libraries in Numbers: Public Library Usage and Funding (FY 2022)
 
-Welcome to **Libraries in Numbers**, a public data analysis project focused on exploring the powerful impact of public libraries through open data. This project highlights how libraries support education, access to technology, and community engagement—using data to tell that story.
+**Libraries in Numbers** is a public data analytics project that explores how libraries serve communities through usage trends, program offerings, digital access, and funding equity.
 
----
-
-## 🎯 Purpose
-
-To demonstrate practical data analytics skills by:
-- Analyzing public library usage trends using real-world data
-- Creating clear and impactful visualizations
-- Building an interactive dashboard or report for stakeholders
-- Showing how data can inform community-focused decision-making
+Using real-world data from the Institute of Museum and Library Services (IMLS), this project cleans and visualizes key performance indicators (KPIs) to better understand the evolving role of libraries across the U.S.
 
 ---
 
-## 🗂️ Project Structure
+## 📘 Notebook Index
 
-```
-libraries-in-numbers/
-├── data/
-│   ├── raw/                  # Raw CSV files from public datasets (e.g., IMLS)
-│   └── cleaned/              # Cleaned and processed data for analysis
-├── notebooks/
-│   ├── 01_explore.ipynb      # Exploratory data analysis (EDA)
-│   └── 02_modeling.ipynb     # Forecasting, clustering, or ML (optional)
-├── dashboard/
-│   └── streamlit_app.py      # Streamlit dashboard (or Power BI report)
-├── report/
-│   └── executive_summary.pdf # One-page visual report
-├── README.md
-└── requirements.txt
-```
+### `public_library_data_fy2022.ipynb`
+- Loads the **FY 2022 IMLS Administrative Entity (AE)** dataset
+- Cleans the raw data by replacing negative values with nulls
+- Renames and selects relevant fields for analysis
+- 📊 Visualizes:
+  - Top 15 states by library visits per 1,000 residents
+  - Choropleth: Library visits per 1,000 people by state
+  - Choropleth: Library funding per capita by state
+- Saves a cleaned CSV file for use in dashboards
 
 ---
 
-## 📊 Data Source
+## 📂 How to Use
 
-We use public datasets from the [Institute of Museum and Library Services (IMLS)](https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey), including:
-- Total library visits
-- Circulation stats (print, digital)
-- Program attendance
-- Internet sessions
-- Library staffing, funding, and service areas
+You can open any of these notebooks in:
+- [Google Colab](https://colab.research.google.com/) (recommended)
+- JupyterLab or Jupyter Notebook locally
 
----
-
-## 🔍 Analysis Highlights
-
-- 📈 Trends in library visits and digital resource use
-- 🌐 Internet access and tech equity across urban/rural libraries
-- 👥 Program attendance vs. population served
-- 🧠 Impact metrics normalized per capita
-- 📍 Regional comparisons by state or service population
+Each notebook includes markdown documentation and inline visualizations. Interactive choropleth maps are powered by Plotly.
 
 ---
 
-## 💡 Technologies Used
+## 🧾 Data Source
 
-- **Python**: pandas, matplotlib, seaborn, plotly
-- **Jupyter/Colab Notebooks**: for analysis and prototyping
-- **Streamlit or Power BI**: for dashboards
-- **GitHub**: version control and collaboration
+All data comes from the IMLS Public Libraries Survey:  
+🔗 https://imls.gov/research-evaluation/data-collection/public-libraries-survey
 
----
-
-## 🚀 How to Use
-
-1. Clone the repo
-```bash
-git clone https://github.com/yourusername/libraries-in-numbers.git
-```
-2. Open notebooks in `notebooks/` to explore or run in Colab
-3. Run the Streamlit dashboard locally:
-```bash
-cd dashboard
-streamlit run streamlit_app.py
-```
-4. Explore the visual report in `/report/`
-
----
-
-## 📄 License
-
-MIT License. You’re free to fork, build on, and adapt for your community!
-
----
-
-## 🙌 Acknowledgments
-
-Thanks to the [IMLS](https://www.imls.gov/) for providing rich open datasets to support public research.
-
----
-
-## 👤 Author
-
-**Paul Clark**  
-Application Systems Analyst / Data Analyst  
-GitHub: [systemslibrarian](https://github.com/systemslibrarian)
-
-> Empowering access through data, automation, and community insight.
+**Files used in this project:**
+- `/raw/PLS_FY22_AE_pud22i.csv` — Administrative Entity (main data file)
+- `/raw/README FY 2022 PLS PUD.txt` — Official IMLS data documentation
+- `/cleaned/PLS_FY22_AE_cleaned.csv` — Cleaned version for analysis
