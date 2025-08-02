@@ -1,8 +1,23 @@
-# 📊 Libraries in Numbers: Public Library Usage and Funding (FY 2022)
+# 📊 Libraries in Numbers
 
-**Libraries in Numbers** is a public data analytics project that explores how libraries serve communities through usage trends, program offerings, digital access, and funding equity.
+**IMLS-based insights into library usage, funding, and access.**
 
-Using real-world data from the Institute of Museum and Library Services (IMLS), this project cleans and visualizes key performance indicators (KPIs) to better understand the evolving role of libraries across the U.S.
+This public data analytics project explores how libraries serve communities through usage trends, program offerings, digital access, and more.
+
+Using real-world data from the Institute of Museum and Library Services (IMLS), this project visualizes key performance indicators and provides actionable insights into the evolving role of libraries.
+
+---
+
+## 📓 Notebooks
+
+This project explores how public libraries serve communities using data from the Institute of Museum and Library Services (IMLS).
+
+Each notebook:
+- Loads and prepares public library survey data (FY 2022)
+- Visualizes usage, access, and funding trends across U.S. states
+- Highlights key insights on equity, digital access, and community reach
+
+📘 See the [Notebook Index](#-notebook-index) below for details on each analysis.
 
 ---
 
@@ -28,3 +43,19 @@ Using real-world data from the Institute of Museum and Library Services (IMLS), 
 - Caps extreme outliers to improve readability
 - Highlights gaps in digital equity
 
+---
+
+## 📂 How to Use
+
+You can open any of these notebooks in:
+- [Google Colab](https://colab.research.google.com/) (recommended)
+- JupyterLab or Jupyter Notebook locally
+
+Each notebook includes markdown documentation and outputs inline.
+
+---
+
+## 🧾 Source
+
+All data comes from the IMLS Public Libraries Survey:  
+🔗 https://imls.gov/research-evaluation/data-collection/public-libraries-survey
