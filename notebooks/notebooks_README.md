@@ -15,13 +15,6 @@ This folder contains Jupyter/Colab notebooks used for cleaning, analyzing, and v
 
 ---
 
-## 🧪 Coming Soon
-
-- `public_library_data_fy2021.ipynb` – Clean + explore FY 2021 data
-- `forecast_dashboard_prep.ipynb` – Forecast library trends
-- `statewise_cluster_analysis.ipynb` – Group libraries by characteristics
-
----
 
 ## 📂 How to Use
 
